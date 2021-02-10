@@ -1,0 +1,16 @@
+ The "for" loop is used to repat some operations a given number of times.
+                                                         or
+ To repeat them for each elementin some collection
+
+ Syntax
+    for some_variable in range_of_values:
+        loop_body
+
+                      Note:
+ Range of values can be a range of integers denoted by
+    range(lowest, highest +1)
+  eg
+ the code;
+        for i in range(0,100):
+            print(i)
+ returns 0-99.
