@@ -1,0 +1,10 @@
+Nested for is sued when looping within a loop.
+syntax:
+for specific_variable in outer_loop:
+    do something #optional
+    for specific_variable in nested_loop:
+        do something
+
+The progra encounters the outer loop which triggers the inner loop
+ The inner loop then executes to completion
+The program then retursn to the outer loop and triggers tehs econd iteration. 

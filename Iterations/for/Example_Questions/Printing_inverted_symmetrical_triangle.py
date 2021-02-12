@@ -7,7 +7,14 @@ __author__ = "Laurine"
 # contain 2n − 1, 2n − 3, . . . , 3, 1 asterisks and should be indented by 0, 2, 4, . . . , 2(n − 1)
 # spaces. For example, for n = 4 the triangle should appear as follows:
 
-rows = 5
+rows = 7
 
-for i in range(rows, 1):
-    print(" *" *i-1)
+# introducing the step parameter to define the decrement
+for i in range(rows, 0, -2):
+    for j in range(0, rows):
+        print(end=" ")
+    # for every row, print an arterisk and a space multiplied by the row number
+    print("* " *i)
+
+
+

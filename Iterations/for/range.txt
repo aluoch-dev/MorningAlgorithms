@@ -1,0 +1,8 @@
+The range() method is often sued when loopig usin for
+The method provides the following sysntax:
+    range(start, end, step)
+    eg. range(0, 100, 2) starts at 0, ends at 99 and incerements by 2.
+
+When step is not specified, the default is increment by 1.
+You can also decremnet susing teh step parameter
+eg. range(100, 0, -2) starts at 100, and ends at 0. and decrements by 2.
