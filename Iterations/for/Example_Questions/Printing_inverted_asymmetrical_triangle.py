@@ -11,10 +11,10 @@ rows = 7
 
 # introducing the step parameter to define the decrement
 for i in range(rows, 0, -2):
-    for j in range(0, rows):
-        print(end=" ")
+    for j in range(0, rows, -2):
+        print("*", end=" ")
     # for every row, print an arterisk and a space multiplied by the row number
-    print("* " *i)
+    print(" *" *i)
 
 
 
